@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./scss/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section id="lengths-container">
+        <section>
+          <p id="break-label">Break Length</p>
+          <div class="change-length-container">
+            <button id="break-decrement" class="change-button">- 1</button>
+            <p id="break-length">5</p>
+            <button id="break-increment" class="change-button">+ 1</button>
+          </div>
+        </section>
+        <section>
+          <p id="session-label">Session Length</p>
+          <section class="change-length-container">
+            <button id="session-decrement" class="change-button">- 1</button>
+            <p id="session-length">25</p>
+            <button id="session-increment" class="change-button">+ 1</button>
+          </section>
+        </section>
+      </section>
+      <section id="time">
+        <p id="timer-label">SESSION</p>
+        <p id="time-left"></p>
+      </section>
+      <section id="buttons">
+        <button id="start_stop" class="bottom-button">START</button>
+        <button id="reset" class="bottom-button">RESET</button>
+      </section>
+      <audio id="beep" src="./assets/beep.mp3" type="audio/mpeg"></audio>
+      <p id="footer">&copy; Shayan Ali (SA9102). Created for freeCodeCamp.<br><br><a href="https://github.com/SA9102/FCC-25-5-Clock" target="_blank">View repository</a></p>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
